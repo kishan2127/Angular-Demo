@@ -1,0 +1,39 @@
+<!-- Page Content -->
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 bolder style="    text-align: center;
+    margin: 0px auto 30px;
+    padding: 20px 0;">Contact Us</h1>
+
+        <form class="side_form">
+          <label for="name">Full Name :<br>
+            <input type="text" name="name" id="name" placeholder="Full Name"  [(ngModel)]="model.name"></label>
+          <label for="Email">Email :<br>
+            <input type="text" name="Email"  id="Email" placeholder="Email"  [(ngModel)]="model.email"></label>
+          <label for="age">Age :<br>
+            <input type="text" name="age" id="age"  placeholder="Age"  [(ngModel)]="model.age"> </label>
+          <label for="number">Contact No :<br>
+            <input type="text" name="number" id="number" placeholder="Contact No"  [(ngModel)]="model.contactNumber"></label><br>
+          <input type="button" name="Submit" value="Submit" (click)="onClickSubmit()" [disabled]="onSubmit">
+
+        </form>
+      </div>
+      <div class="filled_info">
+
+        <p>Name : {{model.name}} </p><br>
+        <p>Email : {{model.email}} </p><br>
+        <p>Age :  {{model.age}} </p><br>
+        <p>Contact No : {{model.contactNumber}} </p><br>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- /#page-content-wrapper -->

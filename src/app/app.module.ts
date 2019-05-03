@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sideBar/sidebar.component';
 import { Bolder } from './sideBar/sidebar-directive';
+import {FormsModule} from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -15,11 +18,14 @@ import { Bolder } from './sideBar/sidebar-directive';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    Bolder  
+    Bolder,
+    HomeComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

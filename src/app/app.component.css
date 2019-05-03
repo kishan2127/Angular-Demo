@@ -1,0 +1,9 @@
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.changeble_component.inline {
+  width: 84%;
+  margin: 0 auto;
+}

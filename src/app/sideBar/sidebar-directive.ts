@@ -6,5 +6,9 @@ selector:'[bolder]'
 export class Bolder{
 
 constructor (private elementReference : ElementRef){}
-ngOnInit(){	this.elementReference.nativeElement.style.backgroundColor = 'aqua' }	
-} 
+ngOnInit(){	this.elementReference.nativeElement.style.backgroundColor = '#86ff81'; }
+
+
+
+
+}
