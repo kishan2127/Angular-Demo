@@ -2,3 +2,24 @@
 .input-group-append button:hover{
   color: #fff;
 }
+.centered-text{
+  text-align: center;
+  margin: 0 auto;
+}
+.footer_element {
+  height: 55px;
+  padding:0 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer_element p {
+  color: #fff;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

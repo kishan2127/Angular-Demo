@@ -27,7 +27,7 @@ form.side_form input[type="button"] {
 
 div#page-content-wrapper {
   overflow-y: auto;
-  max-height: calc(100vh - 135px);
+  max-height: calc(100vh - 111px);
   margin: 0 auto;
 }
 

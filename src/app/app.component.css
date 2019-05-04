@@ -3,7 +3,7 @@
   vertical-align: top;
 }
 .changeble_component.inline {
-  height: calc(100vh - 135px);
+  height: calc(100vh - 111px);
   overflow-y: auto;
   width: calc(100% - 250px);
   margin: 0 auto;
