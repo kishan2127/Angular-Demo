@@ -130,5 +130,6 @@
 }
 
 div#sidebar-wrapper {
-  min-height: 83vh;
+  min-height: calc(100vh - 135px);
 }
+
