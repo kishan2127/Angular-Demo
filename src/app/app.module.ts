@@ -10,6 +10,8 @@ import { Bolder } from './sideBar/sidebar-directive';
 import {FormsModule} from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import {RegistrationComponent} from '../user-module/registration/registration.component';
+import {UserManagmentModule} from '../user-module/user-managment.module';
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    UserManagmentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
