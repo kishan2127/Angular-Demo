@@ -10,11 +10,14 @@ import {BrowserModule} from "@angular/platform-browser";
 import {AppRoutingModule} from "../app/app-routing.module";
 import {FormsModule} from "@angular/forms";
 import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
+import {RouterModule} from "@angular/router";
 
 
 @NgModule({
-  declarations: [RegistrationComponent],
+  declarations: [RegistrationComponent, LoginComponent],
   imports: [
+    RouterModule
 
   ],
   exports :[RegistrationComponent],

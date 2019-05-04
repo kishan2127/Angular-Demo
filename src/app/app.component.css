@@ -5,6 +5,7 @@
 .changeble_component.inline {
   height: calc(100vh - 135px);
   overflow-y: auto;
-  width: 84%;
+  width: calc(100% - 250px);
   margin: 0 auto;
 }
+
